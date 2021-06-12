@@ -4,7 +4,9 @@
   "description": "This was also made when I was learning about node, I accidentally made the same package.json file in Yuvraj, and now, I am making it in this.",
   "main": "1-intro.js",
   "scripts": {
-    "test": "I do not know what is a test command"
+    "start": "node 8-os-module.js",
+    "test": "node 7-mind-grenade.js",
+    "dev": "nodemon 7-mind-grenade.js"
   },
   "keywords": [
     "Idk",
@@ -15,6 +17,10 @@
   "author": "Yuvraj Singh",
   "license": "ISC",
   "dependencies": {
+    "bootstrap": "^5.0.1",
     "lodash": "^4.17.21"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
   }
 }
