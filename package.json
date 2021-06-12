@@ -4,9 +4,9 @@
   "description": "This was also made when I was learning about node, I accidentally made the same package.json file in Yuvraj, and now, I am making it in this.",
   "main": "1-intro.js",
   "scripts": {
-    "start": "node 8-os-module.js",
+    "start": "node app.js",
     "test": "node 7-mind-grenade.js",
-    "dev": "nodemon 7-mind-grenade.js"
+    "dev": "nodemon app.js"
   },
   "keywords": [
     "Idk",
